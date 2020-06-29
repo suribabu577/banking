@@ -1,0 +1,25 @@
+{% include 'includes/header.html' %}
+{% include 'includes/navbar.html' %}
+
+<div class="box">
+    <h2>Transfer Amount</h2>
+    
+    <form name="form" action="" method="POST">
+      <div class="inputbox">
+        <input type="number" name='SA' required="" autofocus autocomplete="off">
+        <label>Source Account Id</label>
+      </div>
+      <div class="inputbox">
+        <input type="number" name='TA' required="" autofocus autocomplete="off">
+        <label>Target Account Id</label>
+      </div>
+      <div class="inputbox">
+         <input type="number" name='amount' required="" >
+         <label>Amount</label>
+        </div>
+    
+          <button type="submit" style="width:200px;height:50px;margin-left: 60px;" ><h3>Transfer amount</h3></button>
+    
+    </form>
+    </div>
+{% include 'includes/footer.html' %}
